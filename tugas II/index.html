@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mochamad Ilhan Dhivala</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/vue@3"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+  <body class="bg-teal-900">
+  <div class="h-screen w-full flex items-center justify-center flex-col gap-y-4 relative" id="app">
+  <img :src="profileUser" class="mt-[-300px] rounded-full" alt="">
+  <h1 class="text-4x1 f text-black-900 font-bold">{{nameUser}} {{name}}</h1>
+  <button @click="generateUser()" class="bg-teal-300 rounded-full w-60 text-2x1 absolute f text-black-900 font-bold">Generate User</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
